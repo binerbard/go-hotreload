@@ -35,4 +35,11 @@ go mod tidy
 go run main.go
 ```
 
+### Directory code
+
+```console
+// Silahkan lakukan configurasi anda di file /cmd/main.go
+cd cmd/main.go
+```
+
 Aplikasi akan memonitor perubahan dalam direktori proyek dan secara otomatis mengkompilasi ulang dan menjalankan ulang server saat perubahan terdeteksi.
